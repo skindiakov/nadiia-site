@@ -1,0 +1,51 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <title>index</title>
+    <link href="../css/test.css" rel="stylesheet" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+<div align="center">
+    <div class="centered">
+        <div id="header_ceramic_page">
+            <div class="div_logo"><img src="../image/logo-white.png" width="30" height="40"/></div>
+            <div id="panel1" class="centered scaled-background" style="background-image: url('../image/panel.png')">
+                <ul class="about_me_menu">
+                    <li id="header_home"><a><span>Home</span></a></li>
+                    <li id="header_about"><a><span>About me</span></a></li>
+                    <li id="header_what"><a><span>What's new?</span></a></li>
+                    <li id="header_contact"><a><span>Kontakt</span></a></li>
+                </ul>
+            </div>
+            <div id="panel2" class="centered margin-top-bottom scaled-background"
+                 style="background-image: url('../image/panel1.png')">
+                <ul class="ceramic_menu">
+                    <li id="header_design"><a><span>Design</span></a></li>
+                    <li id="header_art"><a><span>Art</span></a></li>
+                    <li id="header_photo"><a><span>Photo</span></a></li>
+                    <li id="header_ceramic"><a><span>Ceramic</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="content_fon">
+            <div id="text" style=" width: 1000px; height: 20px;background: rgba(195,195,195,1.00)"></div>
+            <div id="picture-box" class="centered">
+                <script>
+                    function initPictures() {
+                        for (var i = 1; i <= 12; i++) {
+                            $("#picture-box").append($("<div class='pic_preview' style='background-image: url(../image/Ceramic" + i + ".jpg)'></div>"))
+                        }
+                    }
+                    $('#header_about').addClass("active");
+                    $('#header_ceramic').addClass("active");
+                    initPictures()
+                </script>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>

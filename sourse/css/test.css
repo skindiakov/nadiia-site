@@ -1,0 +1,94 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../image/background.png);
+}
+
+.pic_preview {
+    width: 210px;
+    height: 187px;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin: 5px;
+}
+
+#header_ceramic_page {
+    background-image: url('../image/Ceramic_top.jpg');
+    width: 1000px;
+    height: 240px;
+    background-size: 100%
+}
+
+.div_logo {
+    margin: 0 auto 10px auto;
+    padding-top: 5px;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-top-bottom {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.absolute {
+    position: absolute;
+    width: 100%
+}
+
+#content_fon {
+    width: 1000px;
+    height: 1300px;
+    background: #f2e3e1;
+}
+
+.about_me_menu {
+    height: 40px;
+}
+
+.about_me_menu li {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    width: 110px;
+}
+
+.about_me_menu li span {
+    font-family: Agency FB regular;
+    font-size: 20px;
+    cursor: pointer;
+}
+.about_me_menu li:hover span,.ceramic_menu li:hover span,
+.about_me_menu li.active span,.ceramic_menu li.active span {
+    color: white
+}
+.ceramic_menu {
+    height: 54px;
+}
+
+.ceramic_menu li {
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+}
+
+.ceramic_menu li span {
+    font-family: Agency FB regular;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul {
+    -webkit-padding-start: 0
+}
+
+.scaled-background {
+    background-size: 100% 100%;
+}
